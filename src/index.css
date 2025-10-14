@@ -1,3 +1,4 @@
+/* ==========  CUSTOM PROPERTIES  ========== */
 :root {
   --background-dark: #000;
   --background-light: #f1f9f6;
@@ -10,6 +11,7 @@
   --base-font: "Work Sans", sans-serif;
 }
 
+/* ==========  BASE STYLES  ========== */
 *,
 *::before,
 *::after {
@@ -23,6 +25,7 @@
 
 html {
   font-family: var(--base-font);
+  font-size: 0.9rem;
   line-height: 1.5;
   scroll-behavior: smooth;
 }
@@ -45,8 +48,27 @@ img {
   display: block;
 }
 
+/* ==========  LAYOUT & STRUCTURE  ========== */
 .wrapper {
   padding: 1.2rem 1.2rem;
   max-width: 1200px;
   margin: auto;
 }
+
+/* ==========  TYPOGRAPHY  ========== */
+
+/* ==========  COMPONENTS  ========== */
+/* Navigation */
+.navbar {
+  background-color: var(--background-dark);
+  color: var(--light-font-color);
+}
+.navbar__list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+/* ==========  UTILITY CLASSES  ========== */
+
+/* ==========  RESPONSIVE DESIGN  ========== */
