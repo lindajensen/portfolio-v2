@@ -1,10 +1,16 @@
 function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+    <nav className="navbar">
+      <ul className="navbar__list">
+        <li className="navbar__item">
+          <a href="about">About</a>
+        </li>
+        <li className="navbar__item">
+          <a href="projects">Projects</a>
+        </li>
+        <li className="navbar__item">
+          <a href="contact">Contact</a>
+        </li>
       </ul>
     </nav>
   );
