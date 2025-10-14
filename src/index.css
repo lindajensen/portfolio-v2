@@ -142,6 +142,10 @@ span {
   margin-bottom: 0.8rem;
 }
 
+.hero__title span {
+  display: inline;
+}
+
 .hero__text {
   padding: 0 0.8rem;
   margin-bottom: 1.8rem;
