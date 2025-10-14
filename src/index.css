@@ -1,0 +1,52 @@
+:root {
+  --background-dark: #000;
+  --background-light: #f1f9f6;
+  --accent-color: #febf01;
+  --primary-button-color: #3a2273;
+  --light-font-color: #faf9f6;
+  --dark-font-color: #333;
+
+  --heading-font: "Karla", sans-serif;
+  --base-font: "Work Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--base-font);
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background-light);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.wrapper {
+  padding: 1.2rem 1.2rem;
+  max-width: 1200px;
+  margin: auto;
+}
