@@ -121,7 +121,7 @@ span {
   gap: 1rem;
 }
 
-/* Hero */
+/* Hero Section */
 .hero {
   background-color: var(--background-dark);
   color: var(--light-font-color);
@@ -143,7 +143,7 @@ span {
 }
 
 .hero__title span {
-  display: inline;
+  /* display: inline; */
 }
 
 .hero__text {
@@ -166,6 +166,129 @@ span {
   background-color: #2f1a5c;
 }
 
+/* About Section */
+.about {
+  padding-inline: 1.2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about__text {
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.about__resume {
+  color: var(--primary-button-color);
+  text-decoration: underline;
+}
+
+.about__skills {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.about__skill {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  flex: 0 0 auto;
+  aspect-ratio: 1 / 1;
+}
+
+.about__skill--html {
+  height: 5.2rem;
+  width: 5.2rem;
+  top: 5%;
+  left: 20%;
+}
+
+.about__skill--css {
+  height: 5.1rem;
+  width: 5.1rem;
+  top: 70%;
+  left: 72%;
+}
+
+.about__skill--js {
+  height: 4.3rem;
+  width: 4.3rem;
+  top: 25%;
+  left: 45%;
+}
+
+.about__skill--vue {
+  height: 4.1rem;
+  width: 4.1rem;
+  top: 60%;
+  left: 40%;
+}
+
+.about__skill--react {
+  height: 5rem;
+  width: 5rem;
+  top: 25%;
+  left: 0%;
+}
+
+.about__skill--ts {
+  height: 3.9rem;
+  width: 3.9rem;
+  top: 80%;
+  left: 10%;
+}
+
+.about__skill--uxui {
+  height: 3.8rem;
+  width: 3.8rem;
+  top: 45%;
+  left: 20%;
+}
+
+.about__skill--git {
+  height: 4.2rem;
+  width: 4.2rem;
+  top: 10%;
+  left: 72%;
+}
+
+.about__skill--express {
+  height: 4.5rem;
+  width: 4.5rem;
+  top: 40%;
+  left: 80%;
+}
+
+.about__skill--postgres {
+  height: 4.2rem;
+  width: 4.2rem;
+  top: 83%;
+  left: 50%;
+}
 /* ==========  UTILITY CLASSES  ========== */
 
 /* ==========  RESPONSIVE DESIGN  ========== */
+@media (min-width: 900px) {
+  .about__skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    position: relative;
+    margin-bottom: 1.8rem;
+  }
+
+  .about__skill {
+    position: static;
+    margin: 0 1rem;
+    transition: all 0.8s ease;
+  }
+}
