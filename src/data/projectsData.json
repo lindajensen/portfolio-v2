@@ -53,7 +53,7 @@
     "description": "This project was developed as the final project of the Fullstack course in the Frontend Developer program.",
     "image": "/src/assets/img/project-img7.png",
     "liveUrl": "https://devacademy-dmf4.onrender.com/",
-    "tech": ["React", "Typescript", "Express", "PostgreSQL"]
+    "tech": ["React", "TypeScript", "Express", "PostgreSQL"]
   },
   {
     "id": 8,
