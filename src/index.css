@@ -361,6 +361,30 @@ span {
   color: #374151;
 }
 
+/* Contact */
+.contact {
+  margin-top: 2rem;
+}
+.contact__address {
+  font-style: normal;
+  font-size: 80%;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.contact__socials-icon:hover {
+  transform: scale(1.1);
+}
+
 /* ==========  UTILITY CLASSES  ========== */
 
 /* ==========  RESPONSIVE DESIGN  ========== */
