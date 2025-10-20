@@ -44,8 +44,8 @@
     "name": "Turning Pages",
     "description": "This project was developed as part of the Fullstack course in the Frontend Developer program.",
     "image": "/src/assets/img/project-img6.png",
-    "liveUrl": null,
-    "tech": ["React", "Typescript", "Express", "SQLite"]
+    "liveUrl": "https://turning-pages-45el.onrender.com/",
+    "tech": ["React", "Typescript", "Express", "PostgreSQL"]
   },
   {
     "id": 7,
