@@ -13,12 +13,12 @@
   --h1-fontsize-mobile: 1.8rem;
   --h2-fontsize-mobile: 1.6rem;
   --h3-fontsize-mobile: 1.3rem;
-  --p-fontsize-mobile: 0.8rem;
+  --p-fontsize-mobile: 0.9rem;
 
   --h1-fontsize-desktop: 2.25rem;
   --h2-fontsize-desktop: 1.75rem;
   --h3-fontsize-desktop: 1.5rem;
-  --p-fontsize-desktop: 0.9rem;
+  --p-fontsize-desktop: 1rem;
 }
 
 /* ==========  BASE STYLES  ========== */
@@ -114,11 +114,11 @@ span {
 .navbar {
   background-color: var(--background-dark);
   color: var(--light-font-color);
+  padding: 1.2rem 1.2rem;
 }
 .navbar__list {
   display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
+  justify-content: space-around;
 }
 
 /* Hero Section */
