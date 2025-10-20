@@ -1,3 +1,10 @@
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaLinkedin,
+  FaGithubSquare,
+} from "react-icons/fa";
+
 function Contact() {
   return (
     <section className="contact">
@@ -16,36 +23,28 @@ function Contact() {
           href="https://www.facebook.com/linda.jensen.5872"
           target="_blank"
         >
-          <img
-            className="contact__socials-icon"
-            src="/src/assets/img/facebook-icon.png"
-            alt="Facebook"
-            width="30"
-          />
+          <FaFacebookSquare className="contact__socials-icon" size={35} />
         </a>
         <a
           className="contact__socials-link"
           href="https://www.instagram.com/jensenvbg/"
           target="_blank"
         >
-          <img
-            className="contact__socials-icon"
-            src="/src/assets/img/instagram-icon.png"
-            alt="Instagram"
-            width="30"
-          />
+          <FaInstagramSquare className="contact__socials-icon" size={35} />
         </a>
         <a
           className="contact__socials-link"
           href="https://www.linkedin.com/in/linda-jensen-swe/"
           target="_blank"
         >
-          <img
-            className="contact__socials-icon"
-            src="/src/assets/img/linkedin-icon.png"
-            alt="LinkedIn"
-            width="30"
-          />
+          <FaLinkedin className="contact__socials-icon" size={35} />
+        </a>
+        <a
+          className="contact__socials-link"
+          href="https://github.com/lindajensen"
+          target="_blank"
+        >
+          <FaGithubSquare className="contact__socials-icon" size={35} />
         </a>
       </div>
     </section>
