@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Expense Tracker",
     "description": "This design was created as part of a group project in the UX/UI Design course in the Frontend Developer program.",
-    "image": "/public/img/project-img2.png",
+    "image": "/img/project-img2.png",
     "liveUrl": null,
     "githubUrl": null,
     "tech": ["Figma"]
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Game Finder",
     "description": "This project was developed as part of the Native Javascript course in the Frontend Developer program.",
-    "image": "/public/img/project-img3.png",
+    "image": "/img/project-img3.png",
     "liveUrl": null,
     "githubUrl": null,
     "tech": ["HTML", "CSS", "JavaScript"]
@@ -30,7 +30,7 @@
     "id": 4,
     "name": "Opal & Rouge",
     "description": "This project was developed as part of the Javascript Frameworks course in the Frontend Developer program.",
-    "image": "/public/img/project-img4.png",
+    "image": "/img/project-img4.png",
     "liveUrl": "https://opal-and-rouge.netlify.app/",
     "githubUrl": "https://github.com/lindajensen/opal-and-rouge",
     "tech": ["Vue"]
@@ -39,7 +39,7 @@
     "id": 5,
     "name": "Sebastian Nyberg",
     "description": "This project was created as part of a group project in the Javascript Frameworks course in the Frontend Developer program.",
-    "image": "/public/img/project-img5.png",
+    "image": "/img/project-img5.png",
     "liveUrl": "https://sebastian-nyberg.netlify.app/",
     "githubUrl": "https://github.com/lindajensen/smaka-med-sebastian",
     "tech": ["Vue"]
@@ -48,7 +48,7 @@
     "id": 6,
     "name": "Turning Pages",
     "description": "This project was developed as part of the Fullstack course in the Frontend Developer program.",
-    "image": "/public/img/project-img6.png",
+    "image": "/img/project-img6.png",
     "liveUrl": "https://turning-pages-45el.onrender.com/",
     "githubUrl": "https://github.com/lindajensen/turning-pages-postgres",
     "tech": ["React", "Typescript", "Express", "PostgreSQL"]
@@ -57,7 +57,7 @@
     "id": 7,
     "name": "DevAcademy",
     "description": "This project was developed as the final project of the Fullstack course in the Frontend Developer program.",
-    "image": "/public/img/project-img7.png",
+    "image": "/img/project-img7.png",
     "liveUrl": "https://devacademy-dmf4.onrender.com/",
     "githubUrl": "https://github.com/lindajensen/devacademy",
     "tech": ["React", "TypeScript", "Express", "PostgreSQL"]
@@ -66,7 +66,7 @@
     "id": 8,
     "name": "Floorplan Reader",
     "description": "This project was developed as part of my internship, where I was responsible for the frontend implementation.",
-    "image": "/public/img/project-img8.png",
+    "image": "/img/project-img8.png",
     "liveUrl": null,
     "githubUrl": null,
     "tech": ["React", "TypeScript"]
