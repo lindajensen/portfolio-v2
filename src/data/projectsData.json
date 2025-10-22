@@ -5,6 +5,7 @@
     "description": "This project was developed as part of the HTML & CSS course in the Frontend Developer program.",
     "image": "/src/assets/img/project-img1.png",
     "liveUrl": "https://skylinearchitects.netlify.app/",
+    "githubUrl": "https://github.com/lindajensen/Skyline-Architects",
     "tech": ["HTML", "CSS"]
   },
   {
@@ -13,6 +14,7 @@
     "description": "This design was created as part of a group project in the UX/UI Design course in the Frontend Developer program.",
     "image": "/src/assets/img/project-img2.png",
     "liveUrl": null,
+    "githubUrl": null,
     "tech": ["Figma"]
   },
   {
@@ -21,6 +23,7 @@
     "description": "This project was developed as part of the Native Javascript course in the Frontend Developer program.",
     "image": "/src/assets/img/project-img3.png",
     "liveUrl": null,
+    "githubUrl": null,
     "tech": ["HTML", "CSS", "JavaScript"]
   },
   {
@@ -29,6 +32,7 @@
     "description": "This project was developed as part of the Javascript Frameworks course in the Frontend Developer program.",
     "image": "/src/assets/img/project-img4.png",
     "liveUrl": "https://opal-and-rouge.netlify.app/",
+    "githubUrl": "https://github.com/lindajensen/opal-and-rouge",
     "tech": ["Vue"]
   },
   {
@@ -37,6 +41,7 @@
     "description": "This project was created as part of a group project in the Javascript Frameworks course in the Frontend Developer program.",
     "image": "/src/assets/img/project-img5.png",
     "liveUrl": "https://sebastian-nyberg.netlify.app/",
+    "githubUrl": "https://github.com/lindajensen/smaka-med-sebastian",
     "tech": ["Vue"]
   },
   {
@@ -45,6 +50,7 @@
     "description": "This project was developed as part of the Fullstack course in the Frontend Developer program.",
     "image": "/src/assets/img/project-img6.png",
     "liveUrl": "https://turning-pages-45el.onrender.com/",
+    "githubUrl": "https://github.com/lindajensen/turning-pages-postgres",
     "tech": ["React", "Typescript", "Express", "PostgreSQL"]
   },
   {
@@ -53,6 +59,7 @@
     "description": "This project was developed as the final project of the Fullstack course in the Frontend Developer program.",
     "image": "/src/assets/img/project-img7.png",
     "liveUrl": "https://devacademy-dmf4.onrender.com/",
+    "githubUrl": "https://github.com/lindajensen/devacademy",
     "tech": ["React", "TypeScript", "Express", "PostgreSQL"]
   },
   {
@@ -61,6 +68,7 @@
     "description": "This project was developed as part of my internship, where I was responsible for the frontend implementation.",
     "image": "/src/assets/img/project-img8.png",
     "liveUrl": null,
+    "githubUrl": null,
     "tech": ["React", "TypeScript"]
   }
 ]
