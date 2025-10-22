@@ -2,13 +2,11 @@
 :root {
   --background-dark: #000;
   --background-light: #f1f9f6;
-  /* --accent-color: #febf01;
-  --primary-button-color: #3a2273; */
-
-  --accent-color: #3a2273;
   --primary-button-color: #febf01;
+  --accent-color: #3a2273;
   --light-font-color: #faf9f6;
   --dark-font-color: #333;
+  --muted-font-color: #666;
 
   --heading-font: "Karla", sans-serif;
   --base-font: "Work Sans", sans-serif;
@@ -62,11 +60,6 @@ img {
 }
 
 /* ==========  LAYOUT & STRUCTURE  ========== */
-.wrapper {
-  padding: 1.2rem 1.2rem;
-  max-width: 1200px;
-  margin: auto;
-}
 
 /* ==========  TYPOGRAPHY  ========== */
 h1 {
@@ -121,7 +114,8 @@ span {
 }
 .navbar__list {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 /* Hero Section */
@@ -138,7 +132,7 @@ span {
 .hero__image {
   border-radius: 50%;
   padding-block: 1.8rem;
-  width: 180px;
+  width: 11.25rem;
 }
 
 .hero__title {
@@ -158,13 +152,12 @@ span {
   display: inline-block;
   border-radius: 12px;
   margin-bottom: 1.2rem;
-  padding: 14px 28px;
+  padding: 0.875rem 1.75rem;
   font-size: 0.7rem;
   font-weight: 500;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
-  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .hero__button:hover {
@@ -174,7 +167,7 @@ span {
 /* About Section */
 .about {
   padding: 1.2rem 1.2rem;
-  max-width: 900px;
+  max-width: 56.25rem;
   margin: 0 auto;
 }
 
@@ -191,9 +184,9 @@ span {
 .about__skills {
   position: relative;
   width: 100%;
-  height: 450px;
+  height: 28.125rem;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 43.75rem;
 }
 
 .about__skill {
@@ -318,17 +311,17 @@ span {
 .projects__item {
   display: flex;
   flex-direction: column;
-  min-height: 500px;
+  min-height: 31.25rem;
 }
 
 .projects__description {
-  max-width: 400px;
+  max-width: 25rem;
   margin: 0 auto 1rem;
 }
 
 .projects__image {
   width: 100%;
-  height: 200px;
+  height: 12.5rem;
   object-fit: cover;
   max-width: 100%;
   border-radius: 8px;
@@ -342,7 +335,7 @@ span {
 }
 
 .projects__description {
-  color: #666;
+  color: var(--muted-font-color);
   line-height: 1.6;
 }
 
@@ -355,8 +348,7 @@ span {
   background-color: var(--primary-button-color);
   color: var(--dark-font-color);
   text-transform: uppercase;
-  padding: 12px 20px;
-  /* padding: 14px 28px; */
+  padding: 0.75rem 1.25rem;
   font-size: 0.7rem;
   font-weight: 500;
   border: none;
@@ -400,29 +392,15 @@ span {
   align-items: center;
   border-radius: 8px;
   font-size: 0.7rem;
-  color: #374151;
+  color: var(--muted-font-color);
   gap: 0.3rem;
   border: 1px solid #ddd;
   padding: 0.3rem 0.8rem;
   background-color: transparent;
 }
 
-/* .projects__tech-item {
-  font-weight: 300;
-  display: flex;
-  align-items: center;
-  border-radius: 16px;
-  border-radius: 8px;
-  font-size: 0.7rem;
-  color: #4b5563;
-  gap: 0.3rem;
-  border: 1px solid #9ca3af;
-  padding: 0.3rem 0.8rem;
-  background-color: transparent;
-} */
-
 .fallback-message {
-  color: #666;
+  color: var(--muted-font-color);
   font-style: italic;
 }
 
@@ -453,7 +431,8 @@ span {
 /* ==========  UTILITY CLASSES  ========== */
 
 /* ==========  RESPONSIVE DESIGN  ========== */
-@media (min-width: 768px) {
+/* 768px */
+@media (min-width: 48rem) {
   h1 {
     font-size: var(--h1-fontsize-desktop);
   }
@@ -477,7 +456,8 @@ span {
   }
 }
 
-@media (min-width: 900px) {
+/* 900px */
+@media (min-width: 56.25rem) {
   span {
     display: inline;
   }
