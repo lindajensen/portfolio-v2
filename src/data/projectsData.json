@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Skyline Architects",
     "description": "This project was developed as part of the HTML & CSS course in the Frontend Developer program.",
-    "image": "/public/img/project-img1.png",
+    "image": "/img/project-img1.png",
     "liveUrl": "https://skylinearchitects.netlify.app/",
     "githubUrl": "https://github.com/lindajensen/Skyline-Architects",
     "tech": ["HTML", "CSS"]
