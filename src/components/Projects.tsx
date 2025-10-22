@@ -72,20 +72,33 @@ function Projects() {
               ))}
             </div>
 
-            {project.liveUrl ? (
-              <a
-                className="projects__button"
-                href={project.liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live Preview
-              </a>
-            ) : (
-              <button className="projects__button" disabled>
-                Live Preview
-              </button>
-            )}
+            <div className="projects__buttons">
+              {project.liveUrl && (
+                <a
+                  className="projects__button"
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Preview
+                </a>
+              )}
+
+              {project.githubUrl && (
+                <a
+                  className="projects__button"
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              )}
+
+              {!project.liveUrl && !project.githubUrl && (
+                <p className="fallback-message">Code and preview unavailable</p>
+              )}
+            </div>
           </article>
         ))}
       </div>
