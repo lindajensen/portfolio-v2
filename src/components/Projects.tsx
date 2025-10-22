@@ -47,9 +47,9 @@ function Projects() {
   }
 
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <h2 className="projects__title" id="projects">
-        Recent <span className="projects--highlight">Projects</span>
+        My <span className="projects--highlight">Projects</span>
       </h2>
 
       <div className="projects__list">

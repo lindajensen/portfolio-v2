@@ -7,7 +7,7 @@ import {
 
 function Contact() {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <h2 className="contact__title">
         Say <span className="contact__title-highlight">Hello</span>
       </h2>
