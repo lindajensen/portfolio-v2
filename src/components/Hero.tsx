@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div className="hero">
-      <img className="hero__image" src="/src/assets/img/portrait.png" alt="" />
+      <img className="hero__image" src="/public/img/portrait.png" alt="Linda Jensen" />
       <div className="hero__content">
         <h1 className="hero__title">
           Hello, I'm <span>Linda</span>
