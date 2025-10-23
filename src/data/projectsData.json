@@ -58,8 +58,8 @@
     "name": "DevAcademy",
     "description": "This project was developed as the final project of the Fullstack course in the Frontend Developer program.",
     "image": "/img/project-img7.png",
-    "liveUrl": "https://devacademy-dmf4.onrender.com/",
-    "githubUrl": "https://github.com/lindajensen/devacademy",
+    "liveUrl": "https://devacademy-v2.onrender.com/",
+    "githubUrl": "https://github.com/lindajensen/devacademy-v2",
     "tech": ["React", "TypeScript", "Express", "PostgreSQL"]
   },
   {
