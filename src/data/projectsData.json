@@ -77,7 +77,7 @@
     "description": "This project was created as part of a group project in the Communications and Team Dynamics course in the Frontend Developer program",
     "image": "/img/project-img9.jpg",
     "liveUrl": "https://study-buddy-hazel-three.vercel.app/",
-    "githubUrl": null,
+    "githubUrl": "https://github.com/lindajensen/study-buddy",
     "tech": ["React"]
   }
 ]
