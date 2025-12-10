@@ -95,7 +95,7 @@
     "description": "This project was developed as part of the CMS course in the Frontend Developer program.",
     "image": "/img/project-img11.png",
     "liveUrl": null,
-    "githubUrl": null,
+    "githubUrl": "https://github.com/lindajensen/questline-booking-system",
     "tech": ["PHP", "OOP"]
   }
 ]
