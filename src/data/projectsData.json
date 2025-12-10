@@ -88,5 +88,14 @@
     "liveUrl": "https://nathiko.com",
     "githubUrl": null,
     "tech": ["React", "TypeScript", "Express"]
+  },
+  {
+    "id": 11,
+    "name": "Questline Bookings",
+    "description": "This project was developed as part of the CMS course in the Frontend Developer program.",
+    "image": "/img/project-img11.png",
+    "liveUrl": null,
+    "githubUrl": null,
+    "tech": ["PHP", "OOP"]
   }
 ]
