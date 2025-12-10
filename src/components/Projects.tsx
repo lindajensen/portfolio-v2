@@ -75,7 +75,7 @@ function Projects() {
             <div className="projects__buttons">
               {project.liveUrl && (
                 <a
-                  className="projects__button"
+                  className="projects__button primary"
                   href={project.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -86,7 +86,7 @@ function Projects() {
 
               {project.githubUrl && (
                 <a
-                  className="projects__button"
+                  className="projects__button secondary"
                   href={project.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"

@@ -79,5 +79,14 @@
     "liveUrl": "https://study-buddy-hazel-three.vercel.app/",
     "githubUrl": "https://github.com/lindajensen/study-buddy",
     "tech": ["React"]
+  },
+  {
+    "id": 10,
+    "name": "Nathiko",
+    "description": "A client project for Nathiko. A company specializing in IoT solutions for motorsport.",
+    "image": "/img/project-img10.png",
+    "liveUrl": "https://nathiko.com",
+    "githubUrl": null,
+    "tech": ["React", "TypeScript", "Express"]
   }
 ]
