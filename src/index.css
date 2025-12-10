@@ -359,12 +359,13 @@ span {
   cursor: pointer;
 }
 
-.projects__button:first-of-type {
+.projects__button.primary {
   margin-right: 1rem;
+  background-color: var(--primary-button-color);
   border: 2px solid var(--primary-button-color);
 }
 
-.projects__button:last-of-type {
+.projects__button.secondary {
   background-color: transparent;
   border: 2px solid var(--primary-button-color);
   border-radius: 8px;
