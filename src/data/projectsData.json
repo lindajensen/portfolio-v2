@@ -97,5 +97,21 @@
     "liveUrl": null,
     "githubUrl": "https://github.com/lindajensen/questline-booking-system",
     "tech": ["PHP", "OOP"]
+  },
+  {
+    "id": 12,
+    "name": "onShift",
+    "description": "A fullstack staffing application for restaurants, developed as my degree project. Employers can post shifts and manage applications, while workers can find and apply for jobs.",
+    "image": "/img/project-img12.png",
+    "liveUrl": "https://on-shift.vercel.app",
+    "githubUrl": "https://github.com/lindajensen/on-shift",
+    "tech": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Supabase"
+    ]
   }
 ]
