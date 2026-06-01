@@ -113,5 +113,14 @@
       "PostgreSQL",
       "Supabase"
     ]
+  },
+  {
+    "id": 13,
+    "name": "DC Restaurant",
+    "description": "A QR-based ordering and payment system built during my internship at Digital Creation. Customers scan a QR code to order and pay, while staff receive real-time push notifications and manage orders through a dashboard.",
+    "image": "/img/project-img13.png",
+    "liveUrl": null,
+    "githubUrl": null,
+    "tech": ["React", "TypeScript", "C#", ".NET", "PostgreSQL"]
   }
 ]
