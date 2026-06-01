@@ -101,7 +101,7 @@
   {
     "id": 12,
     "name": "onShift",
-    "description": "A fullstack staffing application for restaurants, developed as my degree project. Employers can post shifts and manage applications, while workers can find and apply for jobs.",
+    "description": "A fullstack staffing application for restaurants, developed as my degree project.",
     "image": "/img/project-img12.png",
     "liveUrl": "https://on-shift.vercel.app",
     "githubUrl": "https://github.com/lindajensen/on-shift",
@@ -117,7 +117,7 @@
   {
     "id": 13,
     "name": "DC Restaurant",
-    "description": "A QR-based ordering and payment system built during my internship at Digital Creation. Customers scan a QR code to order and pay, while staff receive real-time push notifications and manage orders through a dashboard.",
+    "description": "A QR-based ordering and payment system built during my internship at Digital Creation in Varberg, Sweden.",
     "image": "/img/project-img13.png",
     "liveUrl": null,
     "githubUrl": null,
